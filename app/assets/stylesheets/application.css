@@ -45,26 +45,26 @@ body {
 .btn-user {
 	background: #ccff00 url(/images/alert-overlay.png) repeat-x;
 	display: inline-block;
-padding: 5px 10px 6px;
-color: #333333;
-text-decoration: none;
-font-weight: bold;
-line-height: 1;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
--moz-box-shadow: 0 1px 3px #999;
--webkit-box-shadow: 0 1px 3px #999;
-border-bottom: 1px solid #222;
-position: relative;
-cursor: pointer;
-}
+	padding: 5px 10px 6px;
+	color: #333333;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px #999;
+	-webkit-box-shadow: 0 1px 3px #999;
+	border-bottom: 1px solid #222;
+	position: relative;
+	cursor: pointer;
+	}
 
  input, textarea, select, .uneditable-input {
  	border: 1px solid #bbb;
  	width: 100%;
  	margin-bottom: 15px;
  	@include box_sizing;
- }
+	}
 
  input {
  	height: auto !important; 

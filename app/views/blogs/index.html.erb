@@ -1,0 +1,8 @@
+<% if @blog.count == 0 %>
+	You have no blogs created. Why don't you start one now
+<% else %>
+	Current Blogs
+	<% @blog.each do |blog| %>
+	<%= blog.name %>
+	<% end %>
+<% end %>

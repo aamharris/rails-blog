@@ -1,4 +1,9 @@
 class BlogsController < ApplicationController
+  def index
+    @blog = Blog.where(user_id: current_user)
+
+  end
+
   def new
     @blog = Blog.new
   end
