@@ -1,3 +1,64 @@
+body {
+    margin:0px;
+
+}
+#header {
+    height:75px;
+    background-color: #333333;
+    border:1px solid #CCC;
+    margin:0px auto;
+}
+
+#header h1 {
+  float: left;
+  margin-left: 7%;
+  margin-top: 23px;
+
+  }
+
+#header ul {
+  padding: 0;
+  text-align: right;
+  margin-right: 7%;
+  }
+
+#header li {
+	color: white;
+  display: inline-block;
+  margin: 1em .5em;
+  text-align: left;
+  text-decoration: none;
+  }
+
+#logo1 {
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+}
+
+#logo2 {
+	color: #ccff00;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: bold;
+}
+
+.btn-user {
+	background: #ccff00 url(/images/alert-overlay.png) repeat-x;
+	display: inline-block;
+padding: 5px 10px 6px;
+color: #333333;
+text-decoration: none;
+font-weight: bold;
+line-height: 1;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 1px 3px #999;
+-webkit-box-shadow: 0 1px 3px #999;
+border-bottom: 1px solid #222;
+position: relative;
+cursor: pointer;
+}
+
  input, textarea, select, .uneditable-input {
  	border: 1px solid #bbb;
  	width: 100%;
