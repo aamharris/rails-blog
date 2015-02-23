@@ -1,0 +1,9 @@
+<%= @blog.name %>
+
+<%= link_to "New", new_blog_post_path(@blog) %>
+
+<% @post.each do |post| %>
+<%= post.title %>
+<%= post.body %>
+<% end %>
+

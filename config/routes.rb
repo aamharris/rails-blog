@@ -1,4 +1,4 @@
-Blog::Application.routes.draw do
+Weblog::Application.routes.draw do
   resources :users
   resources :blogs do
     resources :posts
